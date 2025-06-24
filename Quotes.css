@@ -21,6 +21,16 @@ body::before {
   background: rgba(0,0,0,0.2);
   z-index: -1;
 }
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4); /* Or choose a color that fits your design */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
 .container{
   background-color:rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(15px);
