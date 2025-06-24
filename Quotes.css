@@ -22,14 +22,22 @@ body::before {
   z-index: -1;
 }
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   font-size: 16px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4); /* Or choose a color that fits your design */
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent black */
+  font-family: 'Verdana', sans-serif;
+  z-index: 1000;
+}
+.footer p {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 .container{
   background-color:rgba(255, 255, 255, 0.2);
