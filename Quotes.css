@@ -23,15 +23,13 @@ body::before {
 }
 .footer {
   position: fixed;
-  bottom: 0;
+  bottom: 10px;
   width: 100%;
   text-align: center;
-  padding: 10px;
-  font-size: 16px;
   color: white;
-  background: rgba(0, 0, 0, 0.4); /* semi-transparent black */
-  font-family: 'Verdana', sans-serif;
-  z-index: 1000;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  z-index: 999;
 }
 .footer p {
   background: linear-gradient(to right, #ff7e5f, #feb47b);
